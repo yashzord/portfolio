@@ -58,7 +58,7 @@ export default function Contact() {
             </svg>
             <div>
               <p className="text-xs text-slate-500 mb-0.5">Location</p>
-              <p className="text-sm font-medium">{personal.location}</p>
+              <p className="text-sm font-medium">Open to U.S. Opportunities</p>
             </div>
           </div>
         </div>

@@ -19,9 +19,8 @@ export default function About() {
               with full MLOps observability.
             </p>
             <p>
-              Outside of engineering, I&apos;m a competitive chess player, an avid music listener, and based in{" "}
-              <span className="text-slate-300">{personal.location}</span>, targeting roles in the Princeton/Mercer County
-              area and remote/hybrid opportunities.
+              Outside of engineering, I&apos;m a competitive chess player and an avid music listener. Currently based in
+              the U.S. and open to full-time opportunities anywhere — on-site, hybrid, or remote.
             </p>
           </div>
           <div className="mt-8 flex flex-wrap gap-3">

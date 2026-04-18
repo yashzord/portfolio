@@ -4,10 +4,10 @@ export const personal = {
   roles: ["AI/ML Engineer", "Full Stack Developer", "Data Engineer", "Cybersecurity Researcher"],
   email: "yashubitra@gmail.com",
   phone: "(813) 593-8899",
-  location: "Lawrence Township, NJ",
+  location: "United States — Open to Relocation",
   linkedin: "https://linkedin.com/in/yashwant-bitra",
   github: "https://github.com/yashzord",
-  tagline: "Building production AI systems — from agentic pipelines to security infrastructure.",
+  tagline: "I build AI systems that actually ship.",
 };
 
 export const education = [
