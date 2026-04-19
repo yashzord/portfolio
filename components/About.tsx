@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { personal } from "@/data/resume";
 
 export default function About() {
@@ -37,9 +38,13 @@ export default function About() {
         <div className="flex justify-center">
           <div className="relative">
             <div className="w-64 h-64 rounded-xl overflow-hidden border-2 border-slate-700 relative z-10">
-              <div className="w-full h-full bg-gradient-to-br from-slate-700 to-slate-900 flex items-center justify-center">
-                <span className="text-6xl font-bold text-slate-500">YB</span>
-              </div>
+              <Image
+                src="/headshot.jpg"
+                alt="Yashwant Bitra"
+                width={256}
+                height={256}
+                className="w-full h-full object-cover object-top"
+              />
             </div>
             <div className="absolute -bottom-3 -right-3 w-64 h-64 rounded-xl border border-sky-400/30 z-0" />
           </div>
