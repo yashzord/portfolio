@@ -88,7 +88,7 @@ export const projects = [
       "Trained a deep autoencoder on 21,993 network flows for unsupervised anomaly detection — cut false positives from 1,100 to 103 (90% reduction).",
       "Shipped a Streamlit real-time monitoring dashboard replacing manual log triage.",
     ],
-    github: null,
+    github: "https://github.com/yashzord/Mobile-Intrusion-Detection-System",
     featured: false,
   },
   {
@@ -99,7 +99,51 @@ export const projects = [
       "Ingested 100K+ posts across Reddit, 4chan, and YouTube to power cross-platform toxicity and trend analysis.",
       "Built a RAG-powered chatbot (LangChain + MongoDB) for natural language querying over 100K+ documents; integrated Hugging Face classifiers at 90% toxicity detection accuracy.",
     ],
-    github: null,
+    github: "https://github.com/yashzord/Social-Media-Data-Web-Dashboard",
+    featured: false,
+  },
+  {
+    name: "Evil Twin Attack — Wireless Network Security Research",
+    period: "2024",
+    stack: ["Python", "Kali Linux", "aircrack-ng", "dnsmasq", "Wireshark", "Flask"],
+    bullets: [
+      "Simulated full offensive Evil Twin attack lifecycle — rogue AP creation via airbase-ng, captive portal phishing server, and credential harvesting across two USB Wi-Fi adapters.",
+      "Built BSSID-monitoring detection tool and SSID-verification prevention tool; documented deception strategies for gathering attacker intelligence post-compromise.",
+    ],
+    github: "https://github.com/yashzord/Evil_Twin_Attack",
+    featured: false,
+  },
+  {
+    name: "Smart Traffic Light System (STLS)",
+    period: "2024",
+    stack: ["Python", "AI/ML", "IoT", "Computer Vision", "REST APIs"],
+    bullets: [
+      "Designed an AI-driven urban traffic control system leveraging city-wide cameras and real-time congestion analysis to dynamically adjust signal timing patterns.",
+      "Architected IoT sensor integration layer and civilian reporting interface enabling community-driven incident feedback; projected to cut average intersection wait times significantly.",
+    ],
+    github: "https://github.com/yashzord/Smart-Traffic-Light-System",
+    featured: false,
+  },
+  {
+    name: "Credit Card Fraud Detection",
+    period: "May 2023 – Aug 2023",
+    stack: ["Python", "XGBoost", "Random Forest", "SMOTE", "Flask", "scikit-learn", "SQLite"],
+    bullets: [
+      "Shipped production fraud detection REST API (XGBoost + Random Forest with SMOTE oversampling) achieving 85% accuracy across 1M+ transactions.",
+      "Built automated multi-classifier training pipeline with scikit-learn, logging performance metrics across estimators to select the optimal production model.",
+    ],
+    github: "https://github.com/yashzord/Credit-Card-Fraud-Detection",
+    featured: false,
+  },
+  {
+    name: "Credit Card Data Visualization Platform",
+    period: "May 2023 – Aug 2023",
+    stack: ["Python", "D3.js", "Plotly", "Dash", "REST APIs"],
+    bullets: [
+      "Built an interactive 3D analytics dashboard (D3.js + Plotly/Dash) for credit card transaction data, optimized for 50+ daily API calls and reducing analysis time by 30%.",
+      "Delivered actionable insights that directly informed a $1M+ strategic business decision at CoreCard.",
+    ],
+    github: "https://github.com/yashzord/Credit-Card-Data-Visualization-Platform",
     featured: false,
   },
 ];
